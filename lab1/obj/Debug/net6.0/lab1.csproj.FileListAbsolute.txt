@@ -1,0 +1,15 @@
+/home/denis/Desktop/tmps/lab1/bin/Debug/net6.0/lab1
+/home/denis/Desktop/tmps/lab1/bin/Debug/net6.0/lab1.deps.json
+/home/denis/Desktop/tmps/lab1/bin/Debug/net6.0/lab1.runtimeconfig.json
+/home/denis/Desktop/tmps/lab1/bin/Debug/net6.0/lab1.dll
+/home/denis/Desktop/tmps/lab1/bin/Debug/net6.0/ref/lab1.dll
+/home/denis/Desktop/tmps/lab1/bin/Debug/net6.0/lab1.pdb
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.csproj.AssemblyReference.cache
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.GeneratedMSBuildEditorConfig.editorconfig
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.AssemblyInfoInputs.cache
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.AssemblyInfo.cs
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.csproj.CoreCompileInputs.cache
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.dll
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/ref/lab1.dll
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.pdb
+/home/denis/Desktop/tmps/lab1/obj/Debug/net6.0/lab1.genruntimeconfig.cache
