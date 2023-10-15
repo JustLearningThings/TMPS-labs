@@ -13,6 +13,13 @@
 // net3.initializeNetwork("N3", "StarLink");
 // net3.connect();
 
+// Network net4 = NeteworkPool.getObj();
+// Network net5 = NeteworkPool.getObj();
+// Network net6 = NeteworkPool.getObj();
+// net4.initializeNetwork("N4", "StarLink");
+// net5.initializeNetwork("N5", "StarLink");
+// net6.initializeNetwork("N6", "StarLink");
+
 // Console.WriteLine(NeteworkPool.getCounter());
 // NeteworkPool.releaseObj(net2);
 // NeteworkPool.releaseObj(net3);
@@ -21,14 +28,14 @@
 
 
 // Prototype
-// WeatherPresenter presenter1 = new WeatherPresenter("Jack", 36, true);
-// SportPresenter presenter2 = new SportPresenter("Johanna", 26, false);
-// Emission morning = new Emission();
+WeatherPresenter presenter1 = new WeatherPresenter("Jack", 36, true);
+SportPresenter presenter2 = new SportPresenter("Johanna", 26, false);
+Emission morning = new Emission();
 
-// morning.addPresenter(presenter1);
-// morning.addPresenter(presenter2);
-// morning.addPresenter(presenter2.clone());
-// morning.emitLive();
+morning.addPresenter(presenter1);
+morning.addPresenter(presenter2);
+morning.addPresenter(presenter2.clone());
+morning.emitLive();
 
 
 
@@ -42,11 +49,11 @@
 
 
 // Factory method
-PresenterCreator creator = new();
-WeatherPresenter wp = (WeatherPresenter)creator.createPresenter("Vasika", 23, true, PresenterTypes.Weather);
-SportPresenter sp = (SportPresenter)creator.createPresenter("Vasika", 23, true, PresenterTypes.Sport);
+// PresenterCreator creator = new();
+// WeatherPresenter wp = (WeatherPresenter)creator.createPresenter("Vasika", 23, true, PresenterTypes.Weather);
+// SportPresenter sp = (SportPresenter)creator.createPresenter("Vasika", 23, true, PresenterTypes.Sport);
 
-Emission morning = new Emission();
-morning.addPresenter(wp);
-morning.addPresenter(sp);
-morning.emitLive();
+// Emission morning = new Emission();
+// morning.addPresenter(wp);
+// morning.addPresenter(sp);
+// morning.emitLive();
