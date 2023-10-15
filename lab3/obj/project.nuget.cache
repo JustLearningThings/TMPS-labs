@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lb6a8trFH0xJwu/3fJtDJxZFMQIk6p37G/CN6j1y5rvJttl/mxyIoWl/GqEIQncTLEe00olBwFyXVGNPpsggNw==",
-  "success": false,
-  "projectFilePath": "/home/denis/Desktop/tmps/lab3/lab3.csproj",
+  "dgSpecHash": "RYpiqpDEAwGsJa4mNMUCeMqm0hbFBynYwYOABqVdVvzWaKxWYj+q+ccMq+EioTcLpTrvsxviQLZvZ01hPGDevg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Denny\\Desktop\\tmps\\TMPS-labs\\lab3\\lab3.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.ubuntu.22.04-x64. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Microsoft.NETCore.App.Host.ubuntu.22.04-x64",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

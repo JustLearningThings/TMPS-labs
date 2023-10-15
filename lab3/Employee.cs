@@ -2,7 +2,7 @@ public class Employee {
     public string name;
     public int age;
     public bool gender;
-    public int cost_per_hour;
+    public int costPerHour;
     public int id;
 
     public Employee(string n, int a, bool g, int cph, int i)
@@ -10,7 +10,7 @@ public class Employee {
         name = n;
         age = a;
         gender = g;
-        cost_per_hour = cph;
+        costPerHour = cph;
         id = i;
     }
 }

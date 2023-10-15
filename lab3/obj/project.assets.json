@@ -1,36 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net7.0": []
   },
   "packageFolders": {
-    "/home/denis/.nuget/packages/": {}
+    "C:\\Users\\Denny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/denis/Desktop/tmps/lab3/lab3.csproj",
+      "projectUniqueName": "C:\\Users\\Denny\\Desktop\\tmps\\TMPS-labs\\lab3\\lab3.csproj",
       "projectName": "lab3",
-      "projectPath": "/home/denis/Desktop/tmps/lab3/lab3.csproj",
-      "packagesPath": "/home/denis/.nuget/packages/",
-      "outputPath": "/home/denis/Desktop/tmps/lab3/obj/",
+      "projectPath": "C:\\Users\\Denny\\Desktop\\tmps\\TMPS-labs\\lab3\\lab3.csproj",
+      "packagesPath": "C:\\Users\\Denny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Denny\\Desktop\\tmps\\TMPS-labs\\lab3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/denis/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Denny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -41,42 +43,26 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.ubuntu.22.04-x64",
-            "version": "[6.0.10, 6.0.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.ubuntu.22.04-x64. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Microsoft.NETCore.App.Host.ubuntu.22.04-x64",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
